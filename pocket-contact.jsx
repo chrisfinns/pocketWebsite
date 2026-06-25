@@ -80,8 +80,8 @@ function PocketContact() {
         {/* other links */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 18, marginTop: 24 }}>
           {[
-            ['Read the docs first', 'Detection methods, calibration, and scoring are all explained.', 'Open docs →', 'Pocket Docs.html', 'var(--cyan)'],
-            ['Privacy questions', 'What Pocket records, what it doesn\u2019t, and where it lives.', 'Read privacy →', 'Pocket Privacy.html', 'var(--green)'],
+            ['Read the docs first', 'Detection methods, calibration, and scoring are all explained.', 'Open docs →', 'docs.html', 'var(--cyan)'],
+            ['Privacy questions', 'What Pocket records, what it doesn\u2019t, and where it lives.', 'Read privacy →', 'privacy.html', 'var(--green)'],
             ['Feature requests', 'Tell me the groove or readout you wish existed. I keep a list.', 'Email me →', 'mailto:' + SUPPORT_EMAIL, 'var(--purple)'],
           ].map(([t, d, cta, href, col]) => (
             <a key={t} href={href} style={{ ...panelCt, padding: 22, textDecoration: 'none', display: 'flex', flexDirection: 'column', gap: 8 }}>

@@ -651,7 +651,7 @@ function FinalCTA() {
 function Footer() {
   const cols = [
     ['Explore', [['Features', '#features'], ['How it works', '#how'], ['FAQ', '#faq']]],
-    ['Support', [['Docs', 'Pocket Docs.html'], ['Contact', 'Pocket Contact.html'], ['Privacy', 'Pocket Privacy.html']]],
+    ['Support', [['Docs', 'docs.html'], ['Contact', 'contact.html'], ['Privacy', 'privacy.html']]],
   ];
   return (
     <footer style={{ borderTop: '0.5px solid var(--stroke)', background: 'var(--bg-bottom)' }}>
