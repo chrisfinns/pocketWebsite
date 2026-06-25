@@ -1,0 +1,9 @@
+/* Pocket — webfonts.
+   The app is native SF Pro (UI) + SF Mono (the LCD numeric readouts). Those are
+   Apple system fonts and cannot ship on the web, so the design system substitutes
+   the closest free equivalents:
+     · UI  : Inter        → nearest metrics to SF Pro
+     · Mono: JetBrains Mono → the LCD / millisecond-readout face
+   FLAG: substituted fonts — swap in SF Pro / SF Mono for production native builds. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');

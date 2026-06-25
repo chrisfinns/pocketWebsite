@@ -1,0 +1,44 @@
+/* Pocket — spacing, radii, shadows, motion.
+   Native macOS/iOS metrics: 10–20px panel padding, 10–16px radii, hairline
+   strokes over heavy shadows, brief ease-in-out transitions. */
+
+:root {
+  /* Spacing scale */
+  --s-1: 2px;
+  --s-2: 4px;
+  --s-3: 6px;
+  --s-4: 8px;
+  --s-5: 10px;
+  --s-6: 12px;
+  --s-7: 14px;
+  --s-8: 16px;
+  --s-10: 20px;
+  --s-12: 24px;
+  --s-16: 32px;
+  --s-20: 40px;
+
+  /* Radii — cards 10–16, chips/segments full, cells 2 */
+  --r-cell: 2px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 12px;
+  --r-xl: 16px;
+  --r-pill: 999px;
+
+  /* Hairline-first depth. Native dark UIs lean on strokes + faint fills,
+     not drop shadows. Glow is reserved for the lit green beat. */
+  --shadow-panel: 0 1px 0 rgba(255,255,255,0.02) inset;
+  --shadow-pop: 0 8px 28px rgba(0,0,0,0.55);
+  --glow-green: 0 0 18px rgba(70,217,140,0.45);
+  --glow-green-strong: 0 0 24px rgba(124,255,176,0.55);
+  --glow-cyan: 0 0 16px rgba(43,212,230,0.40);
+
+  /* Motion — short, eased; no bounce on data. */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --dur-fast: 0.12s; /* @kind other */
+  --dur: 0.2s; /* @kind other */
+  --dur-slow: 0.32s; /* @kind other */
+
+  /* Hit targets */
+  --hit-min: 44px;
+}

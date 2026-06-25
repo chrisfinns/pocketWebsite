@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="msBg" cx="50%" cy="42%" r="80%">
+      <stop offset="0" stop-color="#15181E"></stop>
+      <stop offset="1" stop-color="#070809"></stop>
+    </radialGradient>
+    <linearGradient id="msTeal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5BE9F5"></stop>
+      <stop offset="0.5" stop-color="#2BD4E6"></stop>
+      <stop offset="1" stop-color="#159FBD"></stop>
+    </linearGradient>
+    <linearGradient id="msLit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4FFEE"></stop>
+      <stop offset="0.3" stop-color="#7CFFB0"></stop>
+      <stop offset="1" stop-color="#2FC47E"></stop>
+    </linearGradient>
+    <linearGradient id="msCap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"></stop>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="msShaft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFFFD9" stop-opacity="0"></stop>
+      <stop offset="1" stop-color="#CFFFE4" stop-opacity="0.6"></stop>
+    </linearGradient>
+    <radialGradient id="msHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#46D98C" stop-opacity="0.45"></stop>
+      <stop offset="1" stop-color="#46D98C" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <rect width="1024" height="1024" rx="230" fill="url(#msBg)"></rect>
+  <circle cx="512" cy="520" r="300" fill="url(#msHalo)"></circle>
+
+  
+  <rect x="488" y="150" width="48" height="210" rx="24" fill="url(#msShaft)"></rect>
+
+  
+  <line x1="212" y1="744" x2="812" y2="744" stroke="#2BD4E6" stroke-opacity="0.16" stroke-width="6" stroke-linecap="round"></line>
+  <g fill="#2BD4E6" fill-opacity="0.32">
+    <circle cx="256" cy="744" r="8"></circle><circle cx="384" cy="744" r="8"></circle><circle cx="512" cy="744" r="8"></circle><circle cx="640" cy="744" r="8"></circle><circle cx="768" cy="744" r="8"></circle>
+  </g>
+
+  
+  <rect x="218" y="460" width="76" height="240" rx="38" fill="url(#msTeal)"></rect>
+  <rect x="346" y="400" width="76" height="300" rx="38" fill="url(#msTeal)"></rect>
+  <rect x="602" y="400" width="76" height="300" rx="38" fill="url(#msTeal)"></rect>
+  <rect x="730" y="460" width="76" height="240" rx="38" fill="url(#msTeal)"></rect>
+  <rect x="474" y="340" width="76" height="360" rx="38" fill="url(#msLit)"></rect>
+
+  
+  <rect x="218" y="460" width="76" height="240" rx="38" fill="url(#msCap)"></rect>
+  <rect x="346" y="400" width="76" height="300" rx="38" fill="url(#msCap)"></rect>
+  <rect x="602" y="400" width="76" height="300" rx="38" fill="url(#msCap)"></rect>
+  <rect x="730" y="460" width="76" height="240" rx="38" fill="url(#msCap)"></rect>
+  <rect x="474" y="340" width="76" height="360" rx="38" fill="url(#msCap)"></rect>
+
+  
+  <ellipse cx="512" cy="356" rx="28" ry="40" fill="#ECFFF4" opacity="0.7"></ellipse>
+</svg>

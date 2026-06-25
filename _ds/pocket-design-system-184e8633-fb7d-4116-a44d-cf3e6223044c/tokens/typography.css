@@ -1,0 +1,37 @@
+/* Pocket — typography tokens.
+   SF-Pro-style UI sans + SF-Mono-style numeric face. Every metric, BPM, ms
+   readout and stat uses the MONO face — that "instrument LCD" feel is core. */
+
+:root {
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Wordmark: lowercase, semibold, tight tracking (per brief) */
+  --font-wordmark: 'Inter', -apple-system, sans-serif;
+  --wordmark-weight: 600;
+  --wordmark-tracking: -0.04em;
+
+  /* Type scale (px) — matched to the app's SwiftUI .system sizes */
+  --text-display: 62px;     /* big "last hit" ms readout */
+  --text-readout: 44px;     /* tempo / summary numerics */
+  --text-h1: 26px;          /* pane titles, summary values */
+  --text-h2: 20px;          /* stat values, section heads */
+  --text-h3: 16px;          /* row titles */
+  --text-body: 14px;
+  --text-sm: 13px;
+  --text-xs: 12px;
+  --text-label: 11px;       /* tracked uppercase labels */
+  --text-micro: 9px;
+
+  /* Weights */
+  --w-regular: 400; /* @kind font */
+  --w-medium: 500; /* @kind font */
+  --w-semibold: 600; /* @kind font */
+  --w-bold: 700; /* @kind font */
+
+  /* Tracking — labels are uppercase + tracked; readouts are tight */
+  --track-label: 0.08em;    /* uppercase section labels */
+  --track-tight: -0.01em;
+  --line-tight: 1.05; /* @kind font */
+  --line-body: 1.45; /* @kind font */
+}

@@ -1,0 +1,60 @@
+/* Pocket — color tokens. Dark-first, instrument aesthetic.
+   The product truth: structure is the cyan→green ramp; the LIVE beat / "pocket"
+   is always green and never recolored. Error grades continuously green→amber→red. */
+
+:root {
+  /* ---- Brand core ---- */
+  --cyan: #2BD4E6;          /* structure / beats / data accent */
+  --green: #46D98C;         /* the pocket — on-time / success */
+  --green-lit: #7CFFB0;     /* glow / highlight on the lit beat */
+  --purple: #A974FF;        /* patterns / grooves accent */
+  --rose: #B5757A;          /* count-in / soft warning */
+  --teal: #5E9B96;          /* tempo-name / secondary label */
+  --blue: #0A84FF;          /* selected segment (system accent) */
+
+  /* ---- Surfaces (near-black, dark-first) ---- */
+  --bg-top: #0A0B0D;        /* window background, top of gradient */
+  --bg-bottom: #06070A;     /* bottom of gradient */
+  --bg: #0A0B0D;
+  --panel: #121417;         /* card / surface fill */
+  --panel-raised: #181B1F;  /* slightly lifted surface */
+  --bar: #0E1013;           /* toolbars / transport bars */
+
+  /* ---- Text ---- */
+  --ink: #0E1116;           /* text on light / on-green */
+  --text: #EFF6FF;          /* primary text on dark (off-white) */
+  --text-secondary: #C2C7D0;
+  --muted: #8A8F98;         /* labels, captions */
+  --dim: #5A6068;           /* placeholders, tertiary */
+  --on-green: #05301F;      /* ink on the green play button */
+
+  /* ---- Hairlines & strokes ---- */
+  --stroke: rgba(255, 255, 255, 0.08);
+  --stroke-strong: rgba(255, 255, 255, 0.14);
+  --fill-faint: rgba(255, 255, 255, 0.06);
+  --fill-soft: rgba(255, 255, 255, 0.10);
+  --fill-beat: rgba(255, 255, 255, 0.16);
+
+  /* ---- The continuous timing grade ramp (|error| → hue) ---- */
+  --grade-0: #46D98C;       /* 0 ms — in the pocket */
+  --grade-25: #D9C04E;      /* ~25 ms — amber */
+  --grade-50: #D95E4E;      /* ≥50 ms — red */
+
+  /* ---- Tinted backgrounds (chips, selections) ---- */
+  --cyan-soft: rgba(43, 212, 230, 0.14);
+  --green-soft: rgba(70, 217, 140, 0.14);
+  --purple-soft: rgba(169, 116, 255, 0.16);
+  --purple-edge: rgba(169, 116, 255, 0.30);
+  --rose-soft: rgba(181, 117, 122, 0.16);
+
+  /* ---- Semantic aliases ---- */
+  --surface-window: var(--bg);
+  --surface-card: var(--panel);
+  --surface-bar: var(--bar);
+  --text-body: var(--text);
+  --text-label: var(--muted);
+  --text-placeholder: var(--dim);
+  --accent: var(--cyan);
+  --success: var(--green);
+  --selected: var(--blue);
+}

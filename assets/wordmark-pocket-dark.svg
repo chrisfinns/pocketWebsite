@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 360">
+  <defs>
+    <linearGradient id="wdTeal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5BE9F5"></stop><stop offset="0.5" stop-color="#2BD4E6"></stop><stop offset="1" stop-color="#159FBD"></stop>
+    </linearGradient>
+    <linearGradient id="wdLit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4FFEE"></stop><stop offset="0.3" stop-color="#7CFFB0"></stop><stop offset="1" stop-color="#2FC47E"></stop>
+    </linearGradient>
+    <linearGradient id="wdCap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"></stop><stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="wdShaft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFFFE4" stop-opacity="0"></stop><stop offset="1" stop-color="#CFFFE4" stop-opacity="0.6"></stop>
+    </linearGradient>
+    <radialGradient id="wdHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#46D98C" stop-opacity="0.4"></stop><stop offset="1" stop-color="#46D98C" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <circle cx="180" cy="182" r="92" fill="url(#wdHalo)"></circle>
+  <rect x="168" y="62" width="24" height="62" rx="12" fill="url(#wdShaft)"></rect>
+  <g>
+    <rect x="62" y="175" width="28" height="80" rx="14" fill="url(#wdTeal)"></rect>
+    <rect x="114" y="145" width="28" height="110" rx="14" fill="url(#wdTeal)"></rect>
+    <rect x="218" y="145" width="28" height="110" rx="14" fill="url(#wdTeal)"></rect>
+    <rect x="270" y="175" width="28" height="80" rx="14" fill="url(#wdTeal)"></rect>
+    <rect x="166" y="115" width="28" height="140" rx="14" fill="url(#wdLit)"></rect>
+  </g>
+  <g>
+    <rect x="62" y="175" width="28" height="80" rx="14" fill="url(#wdCap)"></rect>
+    <rect x="114" y="145" width="28" height="110" rx="14" fill="url(#wdCap)"></rect>
+    <rect x="218" y="145" width="28" height="110" rx="14" fill="url(#wdCap)"></rect>
+    <rect x="270" y="175" width="28" height="80" rx="14" fill="url(#wdCap)"></rect>
+    <rect x="166" y="115" width="28" height="140" rx="14" fill="url(#wdCap)"></rect>
+  </g>
+
+  <text x="372" y="245" font-family="&#39;Avenir Next&#39;,&#39;Helvetica Neue&#39;,Arial,sans-serif" font-size="172" font-weight="600" letter-spacing="-2" fill="#EFF6FF">pocket</text>
+</svg>
